@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   title: "Echevensko Empresas",
   description: "Charla corporativa – La Magia de la Imaginación",
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/images/favicon.png",
+    shortcut: "/images/favicon.png",
+    apple: "/images/favicon.png",
   },
 };
 
