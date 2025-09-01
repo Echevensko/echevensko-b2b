@@ -364,7 +364,7 @@ export default function EchevenskoB2BLanding() {
           <div className="md:col-span-3">
             <h2 className="text-3xl font-bold">Solicita tu propuesta</h2>
             <p className="mt-2 text-neutral-700">Cuéntanos fecha tentativa, modalidad y tamaño de audiencia. Te responderemos con disponibilidad y valores.</p>
-            <form className="mt-6 grid grid-cols-1 gap-3" action="FORM_ACTION_URL" method="POST">
+            <form className="mt-6 grid grid-cols-1 gap-3" action="https://formspree.io/f/xjkeodav" method="POST">
               <div className="grid sm:grid-cols-2 gap-3">
                 <Input name="name" placeholder="Nombre y apellido" required />
                 <Input name="email" placeholder="Email corporativo" type="email" required />
