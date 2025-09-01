@@ -45,7 +45,7 @@ export default function EchevenskoB2BLanding() {
     {/* Si quieres una imagen de ambiente MUY suave detrás, déjala; si no, borra este div */}
     <div
       aria-hidden
-      className="absolute inset-0 bg-[url('echevensko-b2b/echevensko_web_foto_1.jpg')] bg-cover bg-center opacity-10"
+      className="absolute inset-0 bg-[url('/echevensko-b2b/echevensko_web_foto_1.jpg')] bg-cover bg-center opacity-10"
     />
   </div>
 
