@@ -137,7 +137,7 @@ export default function EchevenskoB2BLanding() {
             {/* Bloque video para gerencias de RR.HH. */}
             <div>
               <Badge className="mb-3">Un recurso innovador para potenciar equipos en tu empresa</Badge>
-              <h2 className="text-3xl font-bold">La Magia de la Imgaginación | Charlas corporativas para equipos.</h2>
+              <h2 className="text-3xl font-bold">La Magia de la Imaginación | Charlas corporativas para equipos.</h2>
               <p className="mt-2 text-neutral-700">Conoce cómo esta experiencia única puede integrarse a tus iniciativas de bienestar, liderazgo y cultura organizacional, generando un impacto positivo y duradero en tu compañía.</p>
               <div className="mt-6 rounded-2xl overflow-hidden border">
                 <div className="aspect-video">
