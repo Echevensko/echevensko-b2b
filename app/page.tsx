@@ -382,7 +382,7 @@ export default function EchevenskoB2BLanding() {
               <div className="flex flex-wrap gap-3">
                 <Button className="rounded-2xl" type="submit">Enviar consulta</Button>
                 <Button asChild variant="outline" className="rounded-2xl"><a href="mailto:empresas.echevensko@gmail.com?subject=Cotizaci%C3%B3n%20charla%20corporativa">O escríbenos por email</a></Button>
-                <Button asChild variant="outline" className="rounded-2xl"><a href="https://wa.me/WHATSAPP_INTL_NUMBER?text=Hola%20quiero%20cotizar%20la%20charla%20corporativa%20de%20Echevensko">WhatsApp</a></Button>
+                <Button asChild variant="outline" className="rounded-2xl"><a href="https://wa.me/56920080031?text=Hola%20quiero%20cotizar%20la%20charla%20corporativa%20de%20Echevensko">WhatsApp</a></Button>
               </div>
               <p className="text-xs text-neutral-500 mt-2">*Al enviar, aceptas ser contactado(a) por nuestro equipo con fines comerciales.</p>
             </form>
