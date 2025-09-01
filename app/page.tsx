@@ -138,7 +138,7 @@ export default function EchevenskoB2BLanding() {
             <div>
               <Badge className="mb-3">Un recurso innovador para potenciar equipos en tu empresa</Badge>
               <h2 className="text-3xl font-bold">Demo para RR.HH.</h2>
-              <p className="mt-2 text-neutral-700">Conoce el tono, la energía y el tipo de herramientas que llevamos a tu organización. Ideal para evaluar fit con iniciativas de bienestar, cultura y liderazgo.</p>
+              <p className="mt-2 text-neutral-700">Conoce cómo esta experiencia única puede integrarse a tus iniciativas de bienestar, liderazgo y cultura organizacional, generando un impacto positivo y duradero en tu compañía.</p>
               <div className="mt-6 rounded-2xl overflow-hidden border">
                 <div className="aspect-video">
                   <iframe
