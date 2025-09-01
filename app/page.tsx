@@ -1,9 +1,7 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gradient-to-r from-purple-500 to-indigo-600">
-      <h1 className="text-4xl font-bold text-white">
-        Hola, Tailwind está funcionando 🎉
-      </h1>
+    <main className="flex min-h-screen items-center justify-center bg-gray-100">
+      <h1 className="text-3xl font-bold text-gray-900">Echevensko Empresas</h1>
     </main>
-  )
+  );
 }
