@@ -19,7 +19,7 @@ export default function EchevenskoB2BLanding() {
         <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Sparkles className="h-6 w-6" />
-            <span className="font-semibold tracking-tight">Echevensko Empresas</span>
+            <span className="font-semibold tracking-tight">La Magia de la Imaginación</span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="#por-que" className="hover:text-neutral-600">Impacto</a>
