@@ -57,12 +57,12 @@ export default function EchevenskoB2BLanding() {
 
         {/* ← Edita este título libremente */}
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight">
-          Charla que eleva <span className="text-amber-600">la imaginación</span> y el rendimiento de tu equipo
+          Una charla que eleva <span className="text-amber-600">la imaginación</span> y el rendimiento de tu equipo
         </h1>
 
         {/* ← Edita este párrafo libremente */}
         <p className="mt-4 text-lg text-neutral-700">
-          Un unipersonal corporativo creado por <strong>Cristóbal Echevensko</strong> para compañías que buscan
+          Una charla-espectáculo creado por <strong>Cristóbal Echevensko</strong> para compañías que buscan
           mejorar clima, engagement y creatividad. Entretenido, práctico y memorable.
         </p>
 
@@ -197,7 +197,7 @@ export default function EchevenskoB2BLanding() {
       <section id="estructura" className="bg-white border-y">
         <div className="mx-auto max-w-6xl px-4 py-16">
           <h2 className="text-3xl font-bold">Contenido del espectáculo corporativo</h2>
-          <p className="mt-3 text-neutral-700 max-w-3xl">Un unipersonal entretenido y útil en tres actos, con historias, humor y ejercicios prácticos. Basado en investigaciones (Frankl, PNL, mindfulness) y en experiencias reales de cine, TV, videojuegos y literatura.</p>
+          <p className="mt-3 text-neutral-700 max-w-3xl">Una charla entretenida y útil en tres actos, con historias, humor y ejercicios prácticos. Basado en investigaciones (Frankl, PNL, mindfulness) y en experiencias reales de cine, TV, videojuegos y literatura.</p>
           <div className="mt-8 grid md:grid-cols-3 gap-4">
             {[
               {title: "Acto I – Potencial interno", points: ["Autoimagen y autoestima práctica", "Cambiar actitud para cambiar realidad", "Dinámicas participativas"]},
