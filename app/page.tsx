@@ -152,7 +152,7 @@ export default function EchevenskoB2BLanding() {
                 </div>
               </div>
               <div className="mt-4 text-sm text-neutral-600">
-                <p>*Reemplaza <code>VIDEO_ID</code> por el ID del video de YouTube (lo que va después de <code>watch?v=</code>).</p>
+                <p></p>
               </div>
             </div>
 
