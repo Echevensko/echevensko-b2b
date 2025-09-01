@@ -144,7 +144,7 @@ export default function EchevenskoB2BLanding() {
                   <iframe
                     className="w-full h-full"
                     src="https://www.youtube.com/embed/DxCSP394Gwg?rel=0&modestbranding=1"
-                    title="Demo charla corporativa Echevensko"
+                    title="La Magia de la Imaginación | Charlas corporativas para equipos"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
