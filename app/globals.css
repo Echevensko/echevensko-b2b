@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Smooth fonts */
-html, body {
-  scroll-behavior: smooth;
+body {
+  @apply bg-white text-gray-900;
 }
