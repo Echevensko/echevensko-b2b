@@ -45,7 +45,7 @@ export default function EchevenskoB2BLanding() {
     {/* Si quieres una imagen de ambiente MUY suave detrás, déjala; si no, borra este div */}
     <div
       aria-hidden
-      className="absolute inset-0 bg-[url('/images/echevensko_web_foto_1.jpg')] bg-cover bg-center opacity-10"
+      className="absolute inset-0 bg-[url('/images/echevensko_web_foto_2.jpg')] bg-cover bg-center opacity-10"
     />
   </div>
 
@@ -89,7 +89,7 @@ export default function EchevenskoB2BLanding() {
           <Card className="relative rounded-3xl shadow-xl">
             <CardContent className="p-0">
               <img
-                src="/images/echevensko_web_foto_2.jpg"
+                src="/images/echevensko_web_foto_1.jpg"
                 alt="Auditorio corporativo (imagen decorativa)"
                 className="rounded-3xl object-cover h-[360px] w-full"
               />
