@@ -89,7 +89,7 @@ export default function EchevenskoB2BLanding() {
           <Card className="relative rounded-3xl shadow-xl">
             <CardContent className="p-0">
               <img
-                src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=1600&auto=format&fit=crop"
+                src="/images/echevensko_web_foto_2.jpg"
                 alt="Auditorio corporativo (imagen decorativa)"
                 className="rounded-3xl object-cover h-[360px] w-full"
               />
