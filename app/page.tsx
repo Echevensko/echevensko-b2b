@@ -37,56 +37,75 @@ export default function EchevenskoB2BLanding() {
         </div>
       </header>
 
-      {/* HERO */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-amber-50 to-transparent" />
-        <div className="mx-auto max-w-6xl px-4 py-20 md:py-28">
-          <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div>
-              <Badge className="mb-4">B2B · Cultura & Bienestar</Badge>
-              <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight">
-                Charlas que elevan <span className="text-amber-600">la imaginación</span> y el rendimiento de tu equipo
-              </h1>
-              <p className="mt-4 text-lg text-neutral-700">
-                Un unipersonal corporativo creado por <strong>Cristóbal Echevensko</strong> para compañías que buscan
-                mejorar clima, engagement y creatividad. Entretenido, práctico y memorable.
-              </p>
-              <div className="mt-6 flex flex-col sm:flex-row gap-3">
-                <Button size="lg" className="rounded-2xl" asChild>
-                  <a href="#contacto">Solicitar propuesta</a>
-                </Button>
-                <Button size="lg" variant="outline" className="rounded-2xl" asChild>
-                  <a href="#paquetes">Ver paquetes</a>
-                </Button>
-              </div>
-              <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-neutral-600">
-                <div className="flex items-center gap-1"><Star className="h-4 w-4 fill-amber-500 stroke-amber-500"/> 9.8/10 en Atrápalo</div>
-                <div className="flex items-center gap-1"><Users className="h-4 w-4"/> 2.000+ asistentes</div>
-                <div className="flex items-center gap-1"><Trophy className="h-4 w-4"/> 95% recomienda</div>
-              </div>
-            </div>
-            <div>
-              <div className="relative">
-                <div className="absolute -inset-2 bg-amber-200/40 blur-2xl rounded-3xl"/>
-                <Card className="relative rounded-3xl shadow-xl">
-                  <CardContent className="p-0">
-                    <img
-                      src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1600&auto=format&fit=crop"
-                      alt="Auditorio corporativo"
-                      className="rounded-3xl object-cover h-[360px] w-full"
-                    />
-                  </CardContent>
-                </Card>
-              </div>
-              <div className="mt-4 grid grid-cols-3 gap-3 text-sm">
-                <div className="flex items-center gap-2"><Timer className="h-4 w-4"/> 60–90 min</div>
-                <div className="flex items-center gap-2"><Building2 className="h-4 w-4"/> Presencial / Online</div>
-                <div className="flex items-center gap-2"><Globe2 className="h-4 w-4"/> ES / EN opcional</div>
-              </div>
-            </div>
-          </div>
+      {/* HERO (texto real, fondo degradado + opcional imagen tenue) */}
+<section className="relative overflow-hidden">
+  {/* Fondo: degrade + opcional imagen muy suave */}
+  <div className="absolute inset-0">
+    <div className="absolute inset-0 bg-gradient-to-b from-amber-50 to-transparent" />
+    {/* Si quieres una imagen de ambiente MUY suave detrás, déjala; si no, borra este div */}
+    <div
+      aria-hidden
+      className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center opacity-10"
+    />
+  </div>
+
+  <div className="relative mx-auto max-w-6xl px-4 py-20 md:py-28">
+    <div className="grid md:grid-cols-2 gap-10 items-center">
+      {/* Columna de TEXTO (editable) */}
+      <div>
+        <Badge className="mb-4">B2B · Cultura & Bienestar</Badge>
+
+        {/* ← Edita este título libremente */}
+        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight">
+          Charlas que elevan <span className="text-amber-600">la imaginación</span> y el rendimiento de tu equipo
+        </h1>
+
+        {/* ← Edita este párrafo libremente */}
+        <p className="mt-4 text-lg text-neutral-700">
+          Un unipersonal corporativo creado por <strong>Cristóbal Echevensko</strong> para compañías que buscan
+          mejorar clima, engagement y creatividad. Entretenido, práctico y memorable.
+        </p>
+
+        <div className="mt-6 flex flex-col sm:flex-row gap-3">
+          <Button size="lg" className="rounded-2xl" asChild>
+            <a href="#contacto">Solicitar propuesta</a>
+          </Button>
+          <Button size="lg" variant="outline" className="rounded-2xl" asChild>
+            <a href="#paquetes">Ver paquetes</a>
+          </Button>
         </div>
-      </section>
+
+        <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-neutral-600">
+          <div className="flex items-center gap-1"><Star className="h-4 w-4 fill-amber-500 stroke-amber-500"/> 9.8/10 en Atrápalo</div>
+          <div className="flex items-center gap-1"><Users className="h-4 w-4"/> 2.000+ asistentes</div>
+          <div className="flex items-center gap-1"><Trophy className="h-4 w-4"/> 95% recomienda</div>
+        </div>
+      </div>
+
+      {/* Columna visual opcional (puedes dejarla o quitarla) */}
+      <div className="hidden md:block">
+        <div className="relative">
+          <div className="absolute -inset-2 bg-amber-200/40 blur-2xl rounded-3xl"/>
+          <Card className="relative rounded-3xl shadow-xl">
+            <CardContent className="p-0">
+              <img
+                src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=1600&auto=format&fit=crop"
+                alt="Auditorio corporativo (imagen decorativa)"
+                className="rounded-3xl object-cover h-[360px] w-full"
+              />
+            </CardContent>
+          </Card>
+        </div>
+        <div className="mt-4 grid grid-cols-3 gap-3 text-sm">
+          <div className="flex items-center gap-2"><Timer className="h-4 w-4"/> 60–90 min</div>
+          <div className="flex items-center gap-2"><Building2 className="h-4 w-4"/> Presencial / Online</div>
+          <div className="flex items-center gap-2"><Globe2 className="h-4 w-4"/> ES / EN opcional</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* POR QUÉ EMPRESAS */}
       <section id="por-que" className="mx-auto max-w-6xl px-4 py-16">
