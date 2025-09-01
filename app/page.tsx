@@ -246,20 +246,20 @@ export default function EchevenskoB2BLanding() {
           {[
             {
               name: "Esencial",
-              price: "desde UF 60",
+              price: "desde UF 30",
               features: ["Charla 60–75 min", "Material PDF resumen", "Soporte técnico básico"],
               cta: "Cotizar Esencial",
             },
             {
               name: "Plus",
-              price: "desde UF 85",
+              price: "desde UF 35",
               features: ["Charla 75–90 min + Q&A", "Guía práctica 7 días para equipos", "Reporte de feedback post-evento"],
               highlighted: true,
               cta: "Cotizar Plus",
             },
             {
               name: "Premium",
-              price: "desde UF 120",
+              price: "desde UF 40",
               features: ["Charla personalizada por área", "Workshop 45 min líderes (op.)", "Video de agradecimiento para la empresa"],
               cta: "Cotizar Premium",
             },
