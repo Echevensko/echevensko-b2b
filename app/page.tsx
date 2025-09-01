@@ -259,7 +259,7 @@ export default function EchevenskoB2BLanding() {
             },
             {
               name: "Premium",
-              price: "desde UF 40",
+              price: "desde UF 45",
               features: ["Charla personalizada por área", "Workshop 45 min líderes (op.)", "Video de agradecimiento para la empresa"],
               cta: "Cotizar Premium",
             },
