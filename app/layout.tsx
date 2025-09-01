@@ -1,4 +1,5 @@
 import "./globals.css";
+import type { ReactNode } from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -6,7 +7,7 @@ export const metadata: Metadata = {
   description: "Charlas corporativas – La Magia de la Imaginación",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="es">
       <body>{children}</body>
