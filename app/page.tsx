@@ -143,7 +143,7 @@ export default function EchevenskoB2BLanding() {
                 <div className="aspect-video">
                   <iframe
                     className="w-full h-full"
-                    src="https://www.youtube.com/embed/DxCSP394Gwg=0&modestbranding=1"
+                    src="https://www.youtube.com/embed/DxCSP394Gwg?rel=0&modestbranding=1"
                     title="Demo charla corporativa Echevensko"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
