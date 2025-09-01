@@ -414,7 +414,7 @@ export default function EchevenskoB2BLanding() {
       {/* FOOTER */}
       <footer className="border-t">
         <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-neutral-600 flex flex-col md:flex-row items-center justify-between gap-3">
-          <p>© {new Date().getFullYear()} Echevensko. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} Echevensko. Todos los derechos reservados. | ¿Quieres vivir la experiencia en vivo? Compra tus tickets en: https://www.echevensko.com/</p>
           <div className="flex items-center gap-4">
             <a className="hover:text-neutral-800" href="#faq">Términos</a>
             <a className="hover:text-neutral-800" href="#faq">Privacidad</a>
