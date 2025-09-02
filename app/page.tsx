@@ -325,8 +325,8 @@ export default function EchevenskoB2BLanding() {
         <Card className="rounded-3xl overflow-hidden">
           <CardContent className="p-8 md:p-10 grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl font-bold">¿Listo para potenciar a tus equipos?</h3>
-              <p className="mt-2 text-neutral-700">La Magia de la Imaginación es una experiencia diseñada para Gerencias de RR.HH. y Cultura que buscan: Reducir el estrés y la ansiedad laboral, Mejorar la cohesión y confianza entre colaboradores. y mucho más.</p>
+              <h3 className="text-2xl font-bold">¿Por qué elegir La Magia de la Imaginación para tu organización?</h3>
+              <p className="mt-2 text-neutral-700">Una experiencia validada por miles de asistentes en Chile. Adaptada al lenguaje corporativo: entretenida, práctica y con aplicación inmediata. Una inversión en bienestar que impacta directo en clima y productividad.</p>
             </div>
             <div className="flex gap-3">
               <Button asChild size="lg" className="rounded-2xl w-full md:w-auto"><a href="#contacto">Quiero cotizar</a></Button>
