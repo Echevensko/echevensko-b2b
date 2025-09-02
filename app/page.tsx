@@ -381,7 +381,7 @@ export default function EchevenskoB2BLanding() {
               <Textarea name="message" placeholder="Cuéntanos el objetivo de la actividad (kickoff, bienestar, liderazgo, etc.)" className="min-h-[120px]" />
               <div className="flex flex-wrap gap-3">
                 <Button className="rounded-2xl" type="submit">Enviar consulta</Button>
-                <Button asChild variant="outline" className="rounded-2xl"><a href="mailto:empresas.echevensko@gmail.com?subject=Cotizaci%C3%B3n%20charla%20corporativa">O escríbenos por email</a></Button>
+                <Button asChild variant="outline" className="rounded-2xl"><a href="mailto:empresas@echevensko.com?subject=Cotizaci%C3%B3n%20charla%20corporativa">O escríbenos por email</a></Button>
                 <Button asChild variant="outline" className="rounded-2xl"><a href="https://wa.me/56920080031?text=Hola%20quiero%20cotizar%20la%20charla%20corporativa%20de%20Echevensko">WhatsApp</a></Button>
               </div>
               <p className="text-xs text-neutral-500 mt-2">*Al enviar, aceptas ser contactado(a) por nuestro equipo con fines comerciales.</p>
@@ -393,7 +393,7 @@ export default function EchevenskoB2BLanding() {
                 <CardTitle>Datos de contacto</CardTitle>
               </CardHeader>
               <CardContent className="text-sm text-neutral-700 space-y-3">
-                <p className="flex items-center gap-2"><Mail className="h-4 w-4"/> empresas.echevensko@gmail.com</p>
+                <p className="flex items-center gap-2"><Mail className="h-4 w-4"/> empresas@echevensko.com</p>
                 <p className="flex items-center gap-2"><Phone className="h-4 w-4"/> +56 9 2008 0031</p>
                 <p className="flex items-center gap-2"><MapPin className="h-4 w-4"/> Santiago, Chile</p>
                 <p className="flex items-center gap-2"><CalendarDays className="h-4 w-4"/> Respuesta en 24h hábiles</p>
