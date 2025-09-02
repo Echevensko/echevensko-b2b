@@ -325,8 +325,8 @@ export default function EchevenskoB2BLanding() {
         <Card className="rounded-3xl overflow-hidden">
           <CardContent className="p-8 md:p-10 grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl font-bold">¿Listos para un antes y después en tu organización?</h3>
-              <p className="mt-2 text-neutral-700">Solicita una propuesta en 2 minutos. Pensado para gerencias de RR.HH. en empresas medianas y grandes. Respuesta dentro de 24 horas hábiles.</p>
+              <h3 className="text-2xl font-bold">¿Listo para potenciar a tus equipos?</h3>
+              <p className="mt-2 text-neutral-700">La Magia de la Imaginación es una experiencia diseñada para Gerencias de RR.HH. y Cultura que buscan: Reducir el estrés y la ansiedad laboral, Mejorar la cohesión y confianza entre colaboradores. y mucho más.</p>
             </div>
             <div className="flex gap-3">
               <Button asChild size="lg" className="rounded-2xl w-full md:w-auto"><a href="#contacto">Quiero cotizar</a></Button>
