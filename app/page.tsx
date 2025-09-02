@@ -62,7 +62,7 @@ export default function EchevenskoB2BLanding() {
 
         {/* ← Edita este párrafo libremente */}
         <p className="mt-4 text-lg text-neutral-700">
-          Charla-espectáculo corporativa “La Magia de la Imaginación”, presentada por Cristóbal Echevensko.</strong> para compañías que buscan
+          Charla-espectáculo corporativa “La Magia de la Imaginación”, presentada por <strong>Cristóbal Echevensko</strong> para compañías que buscan
           mejorar clima, engagement y creatividad. Entretenido, práctico y memorable.
         </p>
 
